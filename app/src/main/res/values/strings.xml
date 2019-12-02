@@ -1,0 +1,17 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Fruits Disease Detector</string>
+
+    <!-- Activity Name -->
+    <string name="show_image">Show Image</string>
+
+    <!-- Button Name -->
+    <string name="camera_btn">ক্যামেরা দিয়ে তুলুন</string>
+    <string name="filepicker_btn">ছবি নির্বাচন করুন</string>
+
+    <string name="result_btn">ফলাফল দেখুন</string>
+
+    <!-- Image contentDescription -->
+    <string name="welcome_img">Welcome Image</string>
+    <string name="picker_img">Picker Image</string>
+</resources>

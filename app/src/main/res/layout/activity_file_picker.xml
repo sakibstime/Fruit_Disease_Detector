@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".ShowImage"
+    >
+
+    <ImageView
+        android:id="@+id/show_img"
+        android:scaleType="centerCrop"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:contentDescription="@string/picker_img"
+        android:src="@drawable/show_img"
+        android:layout_marginTop="15dp"
+    />
+
+    <Button
+
+        android:id="@+id/result_btn"
+        android:text="@string/result_btn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="40dp"
+        android:textSize="35dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+
+        />
+
+
+
+</LinearLayout>
