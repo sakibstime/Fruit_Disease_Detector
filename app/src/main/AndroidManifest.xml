@@ -12,8 +12,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Camera">
-        </activity>
         <activity
             android:name=".ShowImage"
             android:label="@string/show_image" />

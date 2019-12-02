@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -23,7 +22,7 @@ public class ShowImage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_file_picker);
+        setContentView(R.layout.activity_show_file);
 
         // initialize resources
         mPickerImage = findViewById(R.id.show_img);
